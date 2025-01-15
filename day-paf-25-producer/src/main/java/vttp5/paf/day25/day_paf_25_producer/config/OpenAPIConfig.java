@@ -14,7 +14,7 @@ public class OpenAPIConfig {
         
         return new OpenAPI().info(
             new Info()
-                .title("PAD Day 24")
+                .title("PAF Day 25")
                 .description("Testing API using OpenAPI public interface")
                 .version("1.0")
         );
