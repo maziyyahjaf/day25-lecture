@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "redis.topic2",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.topic2'"
+  },
+  {
+    "name": "redis.topic1",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.topic1'"
+  },
+  {
+    "name": "redis.topic3",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.topic3'"
+  }
+]}
