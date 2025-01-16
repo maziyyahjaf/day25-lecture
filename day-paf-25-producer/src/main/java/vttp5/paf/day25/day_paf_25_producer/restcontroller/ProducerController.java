@@ -31,4 +31,11 @@ public class ProducerController {
 
         return new ResponseEntity<>("Order sent", HttpStatus.OK);
     }
+
+    @PostMapping("/publish2")
+    public ResponseEntity<String> sendOrder2(@RequestBody String rawJsonString) {
+        producerService.publish2(rawJsonString);
+
+        return new ResponseEntity<>("Order sent", HttpStatus.OK);
+    }
 }

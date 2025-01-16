@@ -8,25 +8,15 @@ public class Order {
     private String fullName;
     private List<OrderDetail> lineItem;
 
-
     
     public Order() {
     }
-
     
-
     public Order(String fullName, List<OrderDetail> lineItem) {
         this.fullName = fullName;
         this.lineItem = lineItem;
     }
 
-
-    public Order(int id, String fullName, List<OrderDetail> lineItem) {
-        this.id = id;
-        this.fullName = fullName;
-        this.lineItem = lineItem;
-    }
-    
     public int getId() {
         return id;
     }
@@ -45,7 +35,6 @@ public class Order {
     public void setLineItem(List<OrderDetail> lineItem) {
         this.lineItem = lineItem;
     }
-
     
     
 }
